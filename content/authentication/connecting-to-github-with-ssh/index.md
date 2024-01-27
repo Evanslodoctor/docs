@@ -29,4 +29,15 @@ children:
   - /working-with-ssh-key-passphrases
 shortTitle: Connect with SSH
 ---
+## Troubleshooting
 
+### SSH Key Permissions Issue
+
+If you are facing issues with SSH key permissions, follow these steps:
+
+1. **Check SSH Key Permissions:**
+   Ensure that your SSH private key (`id_rsa`) has the correct permissions. Run the following command:
+
+   ```bash
+   chmod 600 ~/.ssh/id_rsa
+---
